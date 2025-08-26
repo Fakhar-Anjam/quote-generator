@@ -14,11 +14,11 @@ quotes = [
 ]
 
 # Streamlit app UI
-st.set_page_config(page_title="Random Quote Generator", page_icon="✨", layout="centered")
+st.set_page_config(page_title="Random Quote Generator", page_icon="😁✨", layout="centered")
 
-st.title("✨ Random Quote Generator")
+st.title("❤✨ Random Quote Generator")
 st.write("Click the button to get a random motivational quote!")
 
 if st.button("Get Quote"):
     quote = random.choice(quotes)
-    st.success(f"💡 {quote}")
+    st.success(f"🤣💡 {quote}")
